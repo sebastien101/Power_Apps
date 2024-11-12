@@ -118,6 +118,8 @@ The result is firstly collected by sharepoint and then transferred to SQL datala
 After the result is on Datalake, then it can be used in all aspects when looking deeper into product categories.
 
 For example - T-shirt (Filtered on Logo Graphic & Short Sleeve)
+![alt text](app6.png)
+
 
 
 
