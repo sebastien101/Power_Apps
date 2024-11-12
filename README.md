@@ -111,7 +111,10 @@ After the app is tested, then it was distributed to relevant groups for them to 
 ### Step 4 Collecting data and transfer to Datalake
 The result is firstly collected by sharepoint and then transferred to SQL datalake
 
+Sharepoint List
 ![alt text](app4.png)
+
+SQL View
 ![alt text](app5.png)
 
 ### Final Step Power BI report & All reports
