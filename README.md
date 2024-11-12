@@ -121,6 +121,8 @@ Example 1 - T-shirt (Filtered on Logo Graphic & Short Sleeve)
 ![alt text](app6.png)
 
 Example 2 - In most group reporting, this is also merged into the filters
+![alt text](app7.png)
+
 
 
 
