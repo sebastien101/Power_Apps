@@ -1,18 +1,20 @@
 # Power_Apps 
 ## Power Apps & Product Tagging Creation/ Management
 
-Background - 
+### Background - 
 During the style creating process, style information is always missing, not consistant, different terms.
 
 This makes it difficult if we want to look deeper into how different design/ shape/ color affecting the sales.
 
 ![alt text](productino.png)
 
+### Step 1 Define the attributes
 In order to solve this issue, the attribute groups was created and tags were allocated to each product group.
 
 ![alt text](attribute.png)
 
-The arrtibute list was used to create the product tagging app using Microsoft Power Apps application.
+### Step 2 Create the App
+After the arrtibute was created, the we started creating the product tagging app using Microsoft Power Apps application.
 
 ![alt text](app1.png)
 ![alt text](app2.png)
@@ -100,4 +102,10 @@ Reset('ListBox - Fit');Reset('ListBox - Rise');Reset('ListBox - Silhiuette');Res
 Refresh(PantsShort)
 
 ```
+### Step 3 Step 3 Distribute the App
+
+
+
+
+
 
