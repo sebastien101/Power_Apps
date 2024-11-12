@@ -60,3 +60,44 @@ Patch(
 Refresh(PantsShort);
 ```
 
+```
+code for the skip button -
+
+Refresh(PantsShort);
+
+//Here is to patch to T1
+Patch(
+        PantsShort,
+        LookUp(
+            PantsShort,
+            Style = Gallery1.Selected.Name
+        ),
+        {  
+           Completed:"SKIP",
+           Blocked:User().FullName                              
+        }
+    );
+    
+Refresh(PantsShort);
+
+Patch(
+        PantsShort,
+        LookUp(
+            PantsShort,
+            Style = Gallery2.Selected.Name
+        ),
+        {  
+           Blocked:User().FullName                              
+        }
+    );
+
+Refresh(PantsShort);
+```
+```
+code for the clear button -
+
+Reset('ListBox - Fit');Reset('ListBox - Rise');Reset('ListBox - Silhiuette');Reset('ListBox - Optic');Reset('ListBox - Sleevelength');Reset('ListBox - length');
+Refresh(PantsShort)
+
+```
+
