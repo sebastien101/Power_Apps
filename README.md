@@ -114,7 +114,10 @@ The result is firstly collected by sharepoint and then transferred to SQL datala
 ![alt text](app4.png)
 ![alt text](app5.png)
 
+### Final Step Power BI report & All reports
+After the result is on Datalake, then it can be used in all aspects when looking deeper into product categories.
 
+For example - T-shirt (Filtered on Logo Graphic & Short Sleeve)
 
 
 
