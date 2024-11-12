@@ -17,3 +17,46 @@ The arrtibute list was used to create the product tagging app using Microsoft Po
 ![alt text](app1.png)
 ![alt text](app2.png)
 
+```
+Code for the tag button -
+
+Refresh(PantsShort);
+//Here is to patch to T1
+Patch(
+        PantsShort,
+        LookUp(
+            PantsShort,
+            Style = Gallery1.Selected.Name
+        ),
+        {   
+           Silhouette_tag:'ListBox - Silhiuette'.Selected.Silhouette,
+           Fit_tag:'ListBox - Fit'.Selected.Fit,
+//           'Rise_tag/LogoPlacement_tag':'ListBox - Rise'.Selected.Logo_Or_Rise,
+           Length_tag:'ListBox - length'.Selected.Length,
+           Optic_tag:'ListBox - Optic'.Selected.Optic,
+//           Sleeve_Tag:'ListBox - Sleevelength'.Selected.'Sleeve length',
+           Completed:"YES",
+           Blocked:User().FullName                              
+        }
+    );
+    
+Refresh(PantsShort);
+
+Reset('ListBox - Fit');Reset('ListBox - Silhiuette');Reset('ListBox - Optic');Reset('ListBox - length');
+
+Refresh(PantsShort);
+
+Patch(
+        PantsShort,
+        LookUp(
+            PantsShort,
+            Style = Gallery5.Selected.Name
+        ),
+        {  
+           Blocked:User().FullName                              
+        }
+    );
+
+Refresh(PantsShort);
+```
+
