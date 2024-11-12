@@ -102,9 +102,16 @@ Reset('ListBox - Fit');Reset('ListBox - Rise');Reset('ListBox - Silhiuette');Res
 Refresh(PantsShort)
 
 ```
-### Step 3 Step 3 Distribute the App
+### Step 3 Distribute the App & Start tagging
+After the app is tested, then it was distributed to relevant groups for them to tag each style.
 
 ![alt text](app3.png)
+
+
+### Step 4 Collecting data and transfer to Datalake
+The result is firstly collected by sharepoint and then transferred to SQL datalake
+
+
 
 
 
