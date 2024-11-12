@@ -14,3 +14,6 @@ In order to solve this issue, the attribute groups was created and tags were all
 
 The arrtibute list was used to create the product tagging app using Microsoft Power Apps application.
 
+![alt text](app1.png)
+![alt text](app2.png)
+
