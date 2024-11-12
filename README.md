@@ -104,6 +104,8 @@ Refresh(PantsShort)
 ```
 ### Step 3 Step 3 Distribute the App
 
+![alt text](app3.png)
+
 
 
 
