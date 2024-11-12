@@ -117,8 +117,11 @@ The result is firstly collected by sharepoint and then transferred to SQL datala
 ### Final Step Power BI report & All reports
 After the result is on Datalake, then it can be used in all aspects when looking deeper into product categories.
 
-For example - T-shirt (Filtered on Logo Graphic & Short Sleeve)
+Example 1 - T-shirt (Filtered on Logo Graphic & Short Sleeve)
 ![alt text](app6.png)
+
+Example 2 - In most group reporting, this is also merged into the filters
+
 
 
 
