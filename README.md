@@ -8,6 +8,6 @@ This makes it difficult if we want to look deeper into how different design/ sha
 
 ![alt text](productino.png)
 
-
+In order to solve this issue, the attribute groups was created and tags were allocated to each product group.
 
 
