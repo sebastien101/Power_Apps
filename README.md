@@ -108,7 +108,7 @@ After the app is tested, then it was distributed to relevant groups for them to 
 ![alt text](app3.png)
 
 
-### Step 4 Collecting data and transfer to Datalake
+### Step 4 Extract data and load to Datalake
 The result is firstly collected by sharepoint and then transferred to SQL datalake
 
 Sharepoint List
